@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+ <script type="text/javascript" src="js/areaFiguras.js"></script>
+</head>
+<body>
+ <label>Area del Cuadrado</label><br>
+ <label>Ingrese un lado</label><br>  
+ <input id="txtLado" name="lado" type="text" >
+ <button id="btnAreaCua" onclick="areaCuadrado(document.getElementById('txtLado').value);">Area cuadrado</button><br><br>
+ <label>Area del Rectangulo</label><br>
+ <label>Ingrese la base</label><br>  
+ <input id="txtBaseR" name="textinput" type="text" ><br>
+ <label>Ingrese la altura</label><br>  
+ <input id="txtAlturaR" name="textinput" type="text" >
+ <button id="btnAreaRec" name="Boton calcular" onclick="areaRectangulo(document.getElementById('txtBaseR').value,document.getElementById('txtAlturaR').value);">Area rectangulo</button><br><br>
+ <label>Area del Triangulo</label><br>
+ <label>Ingrese la base</label><br>  
+ <input id="txtBaseT" name="textinput" type="text" ><br>
+ <label>Ingrese la altura</label><br>  
+ <input id="txtAlturaT" name="textinput" type="text" >
+ <button id="btnAreaTri" name="Boton calcular" onclick="areaTriangulo(document.getElementById('txtBaseT').value,document.getElementById('txtAlturaT').value);">Area triangulo</button><br><br>
+ <label>Area del Circulo</label><br>
+ <label>Ingrese el radio</label><br>  
+ <input id="txtRadio" name="textinput" type="text" >
+ <button id="btnRadio" name="Boton calcular" onclick="areaCirculo(document.getElementById('txtRadio').value);">Area circulo</button><br><br>
+ <label id="lblResultado"></label>
+</body>
+</html>
